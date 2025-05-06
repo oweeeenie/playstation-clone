@@ -3,7 +3,14 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <h1 className=''> HELLO THERE IM BACK BABY</h1>
+      {/* SLIM BLACK BAR WITH "SONY" */}
+      <header className=' bg-black w-full'>
+        <div className='flex justify-end p-2'>
+          <button className='font-semibold text-white tracking-widest text-xl'>
+            SONY
+          </button>
+        </div>
+      </header>
     </>
   );
 }
